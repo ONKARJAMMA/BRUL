@@ -1,0 +1,66 @@
+# ────────── Python ──────────
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.log
+
+# ────────── Virtual Envs ──────────
+.env
+.venv/
+env/
+venv/
+
+# ────────── Jupyter ──────────
+.ipynb_checkpoints/
+
+# ────────── VSCode ──────────
+.vscode/
+
+# ────────── Model Files ──────────
+models/*.pkl
+models/*.joblib
+
+# ────────── Raw & Temp Data ──────────
+data/train_*.txt
+data/*.zip
+data/raw/
+data/temp/
+data/*.bak
+data/*.tmp
+
+# Keep this if you want to version clean CSV only
+!data/processed_FD001.csv
+
+# ────────── Streamlit ──────────
+.streamlit/
+
+# ────────── FastAPI ──────────
+*.uvicorn
+
+# ────────── Prefect ──────────
+.prefect/
+prefect/
+
+# ────────── OS Files ──────────
+.DS_Store
+Thumbs.db
+
+# ────────── Misc ──────────
+*.swp
+*.bak
+*.tmp
+*.ipynb~
+
+# ────────── Coverage/Test ──────────
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# ────────── Screenshots ──────────
+screenshots/
+
+# ────────── Dependency Lock Files ──────────
+poetry.lock
+Pipfile.lock

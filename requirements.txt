@@ -1,0 +1,28 @@
+# Core Python Libraries
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.4.2
+xgboost==2.0.3
+joblib==1.4.2
+
+# FastAPI (API backend)
+fastapi==0.115.2
+uvicorn==0.35.0
+
+# Streamlit (frontend dashboard)
+streamlit==1.35.0
+
+# Optional - Hyperparameter tuning
+optuna==3.6.1
+
+# Optional - Workflow automation
+prefect==2.16.4
+
+# Pydantic for model schemas (FastAPI dependency)
+pydantic==2.11.3
+typing-inspection==0.4.1
+
