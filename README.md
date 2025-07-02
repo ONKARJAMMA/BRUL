@@ -66,15 +66,16 @@ RUL target is computed per unit by reverse-counting cycles.
 bash
 Copy
 Edit
-git clone https://github.com/your-username/battery-rul-predictor.git
+
+git clone https://github.com/ONKARJAMMA/BRUL.git
 cd battery-rul-predictor
-2. Create virtual environment
+3. Create virtual environment
 bash
 Copy
 Edit
 python -m venv venv
 venv\Scripts\activate  # On Windows
-3. Install dependencies
+4. Install dependencies
 bash
 Copy
 Edit
@@ -98,7 +99,7 @@ Edit
 cd api
 uvicorn main:app --reload
 Test it at:
-📄 http://127.0.0.1:8000/docs
+
 
 ➤ Step 4: Run Streamlit Dashboard
 bash
